@@ -1,0 +1,350 @@
+.container-user {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/images/coffe-login.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filter-user {
+    background-color: rgba(0, 0, 0, 0.7);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100%;
+}
+
+.div-user {
+    width: 45vw;
+    height: 100%;
+    border: solid 2px #fafafa;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-user-information {
+    /* width: 85vw; */
+    height: 80vh;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-actions-user {
+    width: 35vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color:rgb(255, 255, 255); */
+    border: solid 2px #fafafa;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: white
+}
+
+.user-information {
+    font-size: 20px;
+    font-style: unset;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apresentation-user {
+    width: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-user {
+    margin-top: 30px;
+    width: 80px;
+    height: 80px;
+}
+
+.information-user {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+.input-user {
+    border: none;
+    outline: none;
+    border-bottom: solid 1px #fafafa;
+    outline-color: #fafafa;
+    padding-top: 40px;
+    width: 58%;
+    background: none;
+    color: white
+}
+
+.user-actions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+/* .input-style:focus ::-webkit-input-placeholder {
+    color: #ffffff;
+    font-size: 15px;
+    padding-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1.5px solid #fafafa;
+} */
+
+.link-user {
+    font-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.button-user {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #ffffff;
+    border: #ffffff;
+    color: #98531a;
+    font-weight: bold;
+    border-radius: 7px;
+    width: 58%;
+    height: 45px;
+    outline: none;
+    font-size: 15px;
+}
+
+.button-user:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.footer-user {
+    width: 100%;
+    height: 40px;
+    background-color: #000000d7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.user-action {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    /* margin-bottom: 20px;; */
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white
+}
+
+.action:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white
+}
+
+.center-user {
+    width: 40px;
+    height: 40px;
+}
+
+.center-user-search {
+    width: 30px;
+    height: 30px;
+}
+
+.space {
+    margin-right: 15px;
+}
+
+.space-top {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.space-bottom {
+    margin-bottom: 20px;
+}
+
+.informations {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white
+}
+
+.top {
+    margin-top: 40px;
+}
+
+.back {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.form-newUser {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+.informations-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menor {
+    width: 50px;
+    height: 50px;
+}
+
+.menos {
+    margin-bottom: 5px;
+}
+
+.button-search {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.search {
+    padding-top: 20px;
+}
+
+.delete-button {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.s-space {
+    margin-right: 5px;
+}
+
+.search-result {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.product {
+    border: none;
+    outline: none;
+    border-bottom: solid 1px #fafafa;
+    outline-color: #fafafa;
+    padding-top: 20px;
+    width: 58%;
+    background: none;
+    color: white
+}
+
+.product-select {
+    border: none;
+    outline: none;
+    border-bottom: solid 1px #fafafa;
+    outline-color: #fafafa;
+    padding-top: 20px;
+    width: 58%;
+    background: none;
+    color: white
+}
+
+.product-select {
+    -webkit-appearance: none;
+    font-size: 15px;
+    background-color: #00000000;
+}
+
+.users-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 50%;
+    width: 70vw;
+    border-radius: 2.75vh;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    margin: 3vh;
+    color: white
+}
+
+.div-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-users {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.card-reports {
+    height: 79%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    flex-wrap: nowrap;
+    color: white
+}

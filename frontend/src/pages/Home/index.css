@@ -1,0 +1,118 @@
+.container-home {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/images/coffe-login.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filter-home {
+    background-color: rgba(0, 0, 0, 0.7);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    /* background-color: #98531a; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    color: white
+}
+
+.users-info, .commerce-info {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user-ico {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.commerce-ico {
+    width: 40px;
+    height: 40px;
+    margin-left: 60px;
+}
+
+.commerce-name {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.user-name {
+    margin-right: 60px;
+}
+
+.div-cards {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.card {
+    display: flex;
+    width: 35%;
+    height: 25%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.card-text {
+    font-size: 20px;
+    color: white
+}
+
+.card-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.link:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color: #000000c9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    margin-top: 27px;
+    z-index: 1;
+}
